@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" class="default-forecast" id="img-background">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Weather by City / Area code</title>
+    <script src="./js/secret.js" defer></script>
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="static/main.css">
+</head>
+<body>
+    <h1>Current Weather by City / Area code</h1>
+    <p id="flash-msg">Results for: </p>
+    <form action="" id="city-zip-form">
+        <label for=""></label>
+        <input type="text" name="city" id="city-form" placeholder="city name">
+        <label for="zip"></label>
+        <input type="number" name="zip" id="zip-form" placeholder="zip no.">
+        <input type="submit" value="submit">
+    </form>
+    <div>
+        <p id="curr-temp-display"></p>
+    </div>
+    <div>
+        <p id="high-temp-display"></p>
+    </div>
+    <div>
+        <p id="low-temp-display"></p>
+    </div>
+    <div>
+        <p id="forecast-display"></p>
+    </div>
+    <div>
+        <p id="humidity-display"></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+
+.default-forecast {
+    background-image: url("./images/default-forecast.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
+}
+
+.cloudy-forecast {
+    background-image: url("./images/cloudy-forecast.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
+}
+
+.sunny-forecast {
+    background-image: url("./images/sunny-forecast.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
+}
+
+.thunderstorm-forecast {
+    background-image: url("./images/thunderstorm-forecast.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
+}
+
+.rain-forecast{
+    background-image: url("./images/rain-forecast.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
+}
+
+.snow-forecast{
+    background-image: url("./images/snow-forecast.jpeg");
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
+}
